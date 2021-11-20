@@ -20,6 +20,7 @@ const persistedState = loadState();
 
 const store = createStore(
     rootReducer,
+    persistedState,
     compose(
         applyMiddleware(sagaMiddleware),
         devToolExtension,
@@ -32,7 +33,7 @@ sagaMiddleware.run(rootSaga);
 
 ReactDOM.render(
     <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <App />
         </BrowserRouter>
     </Provider>,

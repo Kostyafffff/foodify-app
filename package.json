@@ -1,7 +1,7 @@
 {
   "name": "headworks-test",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "homepage": "https://kostyafffff.github.io/foodify-app/",
   "dependencies": {
     "@emotion/react": "^11.5.0",
