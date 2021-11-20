@@ -10,11 +10,10 @@ export function* requestRandomDish() {
 
         const recipe = yield mapRecipeData(data.meals[0]);
 
-        console.log(recipe);
         yield put(receiveRandomDish(recipe));
 
     } catch (error) {
-        console.log(error.message);
+        console.error(error.message);
     }
 }
 

@@ -18,9 +18,11 @@ export const StyledMainContent = styled.div`
   padding: 20px 40px;
   
   @media (max-width: 500px) {
-    margin-top: 10px;
     max-width: 320px;
     padding: 10px 20px;
+    position: static;
+    transform: none;
+    margin: 10px auto;
   }
 `;
 
