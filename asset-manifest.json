@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/foodify-app/static/css/main.466e9219.chunk.css",
-    "main.js": "/foodify-app/static/js/main.f9ab114b.chunk.js",
-    "main.js.map": "/foodify-app/static/js/main.f9ab114b.chunk.js.map",
+    "main.js": "/foodify-app/static/js/main.8c850494.chunk.js",
+    "main.js.map": "/foodify-app/static/js/main.8c850494.chunk.js.map",
     "runtime-main.js": "/foodify-app/static/js/runtime-main.c50bf22e.js",
     "runtime-main.js.map": "/foodify-app/static/js/runtime-main.c50bf22e.js.map",
     "static/js/2.4408686e.chunk.js": "/foodify-app/static/js/2.4408686e.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.c50bf22e.js",
     "static/js/2.4408686e.chunk.js",
     "static/css/main.466e9219.chunk.css",
-    "static/js/main.f9ab114b.chunk.js"
+    "static/js/main.8c850494.chunk.js"
   ]
 }
