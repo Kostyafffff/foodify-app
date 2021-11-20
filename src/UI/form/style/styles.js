@@ -130,13 +130,14 @@ export const StyledWarningRecipeText = styled.div`
 
 export const StyledAddToFavorites = styled(Button)`
   && {
-      width: 100%;
-      max-width: 150px;
+      min-width: 100px;
       background-color: ${props => props.theme.colors.orange};
       color: ${props => props.theme.colors.powderWhite};
       border-radius: 4px;
       align-self: end;
       margin-top: 20px;
+      height: 30px;
+      font-size: 11px;
     
       &:disabled {
         background-color: ${props => props.theme.colors.darkGrey};

@@ -15,9 +15,7 @@ export const MUIStyledNavButton = styled(Button)`
   }
 `;
 
-
 export const StyledNavbarWrapper = styled.div`
-  width: 100%;
   height: 50px;
   display: flex;
   background-color: ${props => props.theme.colors.darkDarkBlue};

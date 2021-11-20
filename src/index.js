@@ -20,7 +20,6 @@ const persistedState = loadState();
 
 const store = createStore(
     rootReducer,
-    persistedState,
     compose(
         applyMiddleware(sagaMiddleware),
         devToolExtension,

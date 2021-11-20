@@ -4,6 +4,7 @@ import { Switch, Route } from "react-router-dom";
 import { ContainerFavorites } from "./UI/favorites/ContainerFavorites";
 import { ContainerForm } from "./UI/form/ContainerForm";
 import Theme from "./theme/theme";
+import './index.css';
 
 const Main = () =>(
   <Theme>
