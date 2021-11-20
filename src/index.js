@@ -14,17 +14,16 @@ import { throttle } from "lodash";
 import './translation/i18n';
 
 const sagaMiddleware = createSagaMiddleware();
-const devToolExtension = window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__();
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const persistedState = loadState();
 
 const store = createStore(
     rootReducer,
     persistedState,
-    compose(
-        applyMiddleware(sagaMiddleware),
-        devToolExtension,
-    )
+    composeEnhancers(
+        applyMiddleware(sagaMiddleware)
+    ),
 );
 
 store.subscribe(throttle(() => saveToLocalStorage(store.getState()), 1000));
