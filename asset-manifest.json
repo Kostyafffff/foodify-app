@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/foodify-app/static/css/main.466e9219.chunk.css",
-    "main.js": "/foodify-app/static/js/main.b79e4e16.chunk.js",
-    "main.js.map": "/foodify-app/static/js/main.b79e4e16.chunk.js.map",
+    "main.js": "/foodify-app/static/js/main.d8073bb4.chunk.js",
+    "main.js.map": "/foodify-app/static/js/main.d8073bb4.chunk.js.map",
     "runtime-main.js": "/foodify-app/static/js/runtime-main.c50bf22e.js",
     "runtime-main.js.map": "/foodify-app/static/js/runtime-main.c50bf22e.js.map",
-    "static/js/2.4408686e.chunk.js": "/foodify-app/static/js/2.4408686e.chunk.js",
-    "static/js/2.4408686e.chunk.js.map": "/foodify-app/static/js/2.4408686e.chunk.js.map",
+    "static/js/2.92f31d0d.chunk.js": "/foodify-app/static/js/2.92f31d0d.chunk.js",
+    "static/js/2.92f31d0d.chunk.js.map": "/foodify-app/static/js/2.92f31d0d.chunk.js.map",
     "index.html": "/foodify-app/index.html",
     "static/css/main.466e9219.chunk.css.map": "/foodify-app/static/css/main.466e9219.chunk.css.map",
-    "static/js/2.4408686e.chunk.js.LICENSE.txt": "/foodify-app/static/js/2.4408686e.chunk.js.LICENSE.txt",
+    "static/js/2.92f31d0d.chunk.js.LICENSE.txt": "/foodify-app/static/js/2.92f31d0d.chunk.js.LICENSE.txt",
     "static/media/placeholder.f837bf1d.svg": "/foodify-app/static/media/placeholder.f837bf1d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.c50bf22e.js",
-    "static/js/2.4408686e.chunk.js",
+    "static/js/2.92f31d0d.chunk.js",
     "static/css/main.466e9219.chunk.css",
-    "static/js/main.b79e4e16.chunk.js"
+    "static/js/main.d8073bb4.chunk.js"
   ]
 }
