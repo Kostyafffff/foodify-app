@@ -1,8 +1,8 @@
-import { ContainerNavbar } from "./UI/navbar/ContainerNavbar";
-import { ContainerRandomDish } from "./UI/randomDish/ContainerRandomDish";
+import { ContainerNavbar } from "./logic/containers/ContainerNavbar";
+import { ContainerRandomDish } from "./logic/containers/ContainerRandomDish";
 import { Switch, Route } from "react-router-dom";
-import { ContainerFavorites } from "./UI/favorites/ContainerFavorites";
-import { ContainerForm } from "./UI/form/ContainerForm";
+import { ContainerFavorites } from "./logic/containers/ContainerFavorites";
+import { ContainerForm } from "./logic/containers/ContainerForm";
 import Theme from "./theme/theme";
 import './index.css';
 

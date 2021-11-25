@@ -15,23 +15,15 @@ import {
 const FavoriteDish = (props) => {
     const { image, title, description } = props;
 
-    const dishImage = () => {
-        if (!image) {
-            return (
-                <StyledPlaceholder />
-            );
-        }
-
-        return (
-            <StyledImage src={image} />
-        );
-    }
-
     return (
         <FavoriteDishWrapper>
             <StyledTitle>{ title }</StyledTitle>
             <ImageWrapper>
-                { dishImage() }
+                {
+                    !image
+                        ? <StyledPlaceholder />
+                        : <StyledImage src={image} />
+                }
             </ImageWrapper>
 
             <StyledDescription>

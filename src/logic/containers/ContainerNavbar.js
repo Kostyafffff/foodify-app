@@ -1,9 +1,9 @@
 import { connect } from "react-redux";
 
-import Navbar from "./Navbar";
+import Navbar from "../../UI/navbar/Navbar";
 
-import { closeCustomDishModal, openCustomDishModal } from "../../logic/actions/modalActions";
-import { requestRandomDish, showRandomDish } from "../../logic/actions/randomDishActions";
+import { closeCustomDishModal, openCustomDishModal } from "../actions/modalActions";
+import { requestRandomDish, showRandomDish } from "../actions/randomDishActions";
 
 const mapStateToProps = (state) => ({
     favoritesLength: state.favorites.length,

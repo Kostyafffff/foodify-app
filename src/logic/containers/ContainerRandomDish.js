@@ -1,7 +1,7 @@
 import { connect } from "react-redux";
-import RandomDish from "./RandomDish";
-import { requestRandomDish } from "../../logic/actions/randomDishActions";
-import { addToFavorites } from "../../logic/actions/favoritesActions";
+import RandomDish from "../../UI/randomDish/RandomDish";
+import { requestRandomDish } from "../actions/randomDishActions";
+import { addToFavorites } from "../actions/favoritesActions";
 
 const mapStateToProps = (state) => ({
     randomDishValue: state.randomDish,

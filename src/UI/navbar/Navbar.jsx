@@ -25,7 +25,7 @@ const Navbar = (props) => {
                 <StyledButtonWrapper>
                     <StylesProvider injectFirst>
                     <MUIStyledNavButton
-                        onClick={() => requestRandomDish()}
+                        onClick={requestRandomDish}
                     >
                         { t('randomDish') }
                     </MUIStyledNavButton>
@@ -35,14 +35,14 @@ const Navbar = (props) => {
                         color={'secondary'}
                     >
                         <MUIStyledNavButton
-                            onClick={() => navigateToFavoritesPage()}
+                            onClick={navigateToFavoritesPage}
                         >
                             { t('favorites') }
                         </MUIStyledNavButton>
                     </Badge>
                 </StyledButtonWrapper>
                 <MUIStyledNavButton
-                    onClick={() => openModal()}
+                    onClick={openModal}
                 >
                     { t('addDish') }
                 </MUIStyledNavButton>

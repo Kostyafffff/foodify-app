@@ -27,32 +27,24 @@ const RandomDish = (props) => {
         return null;
     }
 
-    const dishImage = () => {
-        if (!randomDishValue.dish.image) {
-            return (
-                <StyledPlaceholder />
-            );
-        }
-
-        return (
-            <StyledImage src={randomDishValue.dish.image} />
-        );
-    }
-
     return (
         <StyledMainContent>
             <DishTitle>
                 { randomDishValue.dish.title }
             </DishTitle>
             <ImageWrapper>
-                { dishImage() }
+                {
+                    !randomDishValue.dish.image
+                        ? <StyledPlaceholder />
+                        : <StyledImage src={randomDishValue.dish.image} />
+                }
             </ImageWrapper>
             <StyledDescription>
                 { randomDishValue.dish.description }
             </StyledDescription>
             <ButtonWrapper>
                 <StyledSkipButton
-                    onClick={() => skip()}
+                    onClick={skip}
                 >
                     { t('skip') }
                 </StyledSkipButton>

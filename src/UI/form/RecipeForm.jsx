@@ -7,7 +7,8 @@ import { useTranslation } from "react-i18next";
 
 import {
     CustomBlur,
-    InputWrapper, StyledAddToFavorites,
+    InputWrapper,
+    StyledAddToFavorites,
     StyledFormWrapper,
     StyledIconButton,
     StyledInput,
@@ -102,7 +103,7 @@ const RecipeForm = (props) => {
             >
                 <StyledTitle>{t('addCustomRecipe')}</StyledTitle>
                 <StyledIconButton
-                    onClick={() => closeWithReset()}
+                    onClick={closeWithReset}
                 >
                     <CloseIcon />
                 </StyledIconButton>
