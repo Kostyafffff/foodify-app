@@ -5,18 +5,21 @@ import { ContainerFavorites } from "./logic/containers/ContainerFavorites";
 import { ContainerForm } from "./logic/containers/ContainerForm";
 import Theme from "./theme/theme";
 import './index.css';
+import { ModalPortal } from "./UI/portal/ModalPortal";
 
 const Main = () =>(
   <Theme>
       <ContainerNavbar />
       <ContainerRandomDish />
-      <ContainerForm />
+      <ModalPortal>
+        <ContainerForm />
+      </ModalPortal>
   </Theme>
 );
 
 const FavoritesWithTheme = () =>(
   <Theme>
-      <ContainerFavorites/>
+      <ContainerFavorites />
   </Theme>
 )
 

@@ -5,11 +5,14 @@ import { useTranslation } from "react-i18next";
 
 import FavoriteDish from "./favorite/FavoriteDish";
 
-import {FavoritesListWrapper, FavoritesWrapper} from "./styles/styles";
+import { FavoritesListWrapper, FavoritesWrapper } from "./styles/styles";
 import { MUIStyledNavButton } from "../navbar/style/styles";
 
 const FavoritesList = (props) => {
     const { favorites } = props;
+
+    //If you want to use new approach
+    //const favorites = useSelector(favoritesSelector);
 
     const { t } = useTranslation();
     const history = useHistory();

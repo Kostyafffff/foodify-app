@@ -42,7 +42,6 @@ export const CustomBlur = styled.div`
   height: 100%;
   background-color: ${props => props.theme.colors.blurColor};
   position: fixed;
-  z-index: 2;
   top: 0;
   left: 0;
 `;

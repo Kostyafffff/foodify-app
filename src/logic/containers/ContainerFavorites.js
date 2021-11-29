@@ -1,9 +1,10 @@
 import { connect } from "react-redux";
 
 import FavoritesList from "../../UI/favorites/FavoritesList";
+import { favoritesSelector } from "../selectors/selectors";
 
 const mapStateToProps = (state) => ({
-   favorites: state.favorites
+   favorites: favoritesSelector(state)
 });
 
 
